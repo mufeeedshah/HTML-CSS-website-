@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Gmaing Wedsite design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a herf="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html" >ABOUT</a></li>
+                 <li><a href="course.html">COURSE</a></li>
+                 <li><a href="blog.html">BUILD</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>        
+    </nav>
+    <h1>COUSTOM GAMING PC</h1>    
+</section>
+<!--------BLOG PAGE---->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.png">
+            <h2>Why build your own Custom gaming PC?</h2>
+            <p>Building your own gaming PC is likely to not only be more cost efficient than a pre-built PC from a store but it will also enable you to build to your own specifications, especially if you’re a serious gamer.<br>Your own custom built PC will be a lot easier to upgrade as it will be composed of the parts that you have selected for your own needs, such as; CPUs, GPUs & Motherboards as well as graphics cards. You’ll also be able to decide how it looks with your own custom pc case as well as the necessary parts to keep it functioning to the best of its spec.</p><br>
+            <h2>How much does it cost?</h2>
+            <p>The cost of a gaming PCs is dependent on your budget but you can build a pretty good gaming PC from as little as 50000INR. You can select your budget from the navigation but prices range from the cheapest gaming PCs at 40000INR up to the high end of 3LAKH INR but it all depends on your requirements.</p>
+            
+            <div class="comment-box">
+                <h3>LEAVE A COMMENT</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                
+                
+                </form>
+            
+            
+            
+            </div>
+            
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Mining Rigs</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Coustom Builds</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Pre-build Pc's</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Workstations</span>
+                <span>30</span>
+            </div>
+        
+        </div>
+    </div>
+    
+    
+    
+</section>
+ <!--------footer----->   
+<section class="footer">
+    <h4>About us</h4>
+    <p>We has has been delivering on its promise to build the best gaming systems for the most discerning gamers. Our systems have become the backbone for professional gamers, game developers, video and audio creators, major esports tournaments, and every day consumers.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>MADE WITH LOVE BY DAWOOD SHAH</p>
+</section>
+    
+    
+       
+<!------javascript for toogle menu------>    
+<script>
+    
+    var navlinks = document.getElementById("navlinks")
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+    </script>
+                               
+                        
+                               
+                               
+                               
+</body>
+</html>   
+    
